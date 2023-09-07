@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+import SearchResults from "./SearchResults.js";
+
 export default function Search() {
  let [word, setWord] = useState("");
+ let [wordData, setWordData] = useState("");
  let key = "82f43b0671f2tb328187o7be4ab620aa";
 
  function handleWordChange(event) {
@@ -17,6 +20,9 @@ export default function Search() {
 
  function showData(response) {
   console.log(response.data);
+  setWordData({
+   definition: response.data.meanings[0].definition,
+  });
  }
 
  return (
@@ -29,6 +35,7 @@ export default function Search() {
     />
     <input type="submit" value="Search" />
    </form>
+   <SearchResults results={wordData} />
   </div>
  );
 }
