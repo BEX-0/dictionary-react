@@ -6,6 +6,7 @@ export default function Search() {
  function handleWordChange(event) {
   event.preventDefault();
   setWord(event.target.value);
+  console.log(word);
  }
 
  return (
