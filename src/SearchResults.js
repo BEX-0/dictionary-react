@@ -1,4 +1,6 @@
 import React from "react";
+
+import "./SearchResults.css";
 import Meaning from "./Meaning.js";
 
 export default function SearchResults(props) {
@@ -10,6 +12,7 @@ export default function SearchResults(props) {
      return (
       <div key={index}>
        <Meaning meaning={meaning} />
+       <br />
       </div>
      );
     })}

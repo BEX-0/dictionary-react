@@ -1,0 +1,12 @@
+.SearchResults {
+ text-align: start;
+}
+
+.SearchResults h2 {
+ text-align: center;
+}
+
+.SearchResults p,
+.SearchResults h4 {
+ margin: 0;
+}
