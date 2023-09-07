@@ -21,7 +21,8 @@ export default function Search() {
  function showData(response) {
   console.log(response.data);
   setWordData({
-   definition: response.data.meanings[0].definition,
+   word: response.data.word,
+   meanings: response.data.meanings,
   });
  }
 
