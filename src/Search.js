@@ -1,17 +1,27 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 export default function Search() {
  let [word, setWord] = useState("");
+ let key = "82f43b0671f2tb328187o7be4ab620aa";
 
  function handleWordChange(event) {
-  event.preventDefault();
   setWord(event.target.value);
-  console.log(word);
+ }
+
+ function search(event) {
+  event.preventDefault();
+  let url = `https://api.shecodes.io/dictionary/v1/define?word=${word}&key=${key}`;
+  axios.get(url).then(showData);
+ }
+
+ function showData(response) {
+  console.log(response.data);
  }
 
  return (
   <div className="Search">
-   <form name="word-search">
+   <form onSubmit={search}>
     <input
      type="search"
      placeholder="Type a word..."
