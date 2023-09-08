@@ -1,22 +1,24 @@
+:root {
+    --lightest: #EDF2F4;
+}
+
 .App {
+ color: var(--lightest);
  text-align: center;
 }
 
 .App a {
  text-decoration: none;
+ color: #8D99AE;
 }
 
 .App footer {
- margin: 20px 0px;
+ margin: 30px 0px;
+text-align: center;
 }
 
-.App input {
- margin: 5px;
- padding: 5px 10px;
-}
-
-.App main {
- display: block;
- margin: 0 auto;
- max-width: 700px;
+.App h1 {
+font-size: 60px;
+text-align: center;
+margin: 0;
 }

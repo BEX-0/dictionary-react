@@ -4,6 +4,7 @@ import Search from "./Search.js";
 function App() {
  return (
   <div className="App">
+    <h1>Dictionary</h1>
    <main>
     <Search />
     </main>

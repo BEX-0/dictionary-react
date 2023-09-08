@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+import "./Search.css";
 import Header from "./Header.js";
 
 export default function Search() {
