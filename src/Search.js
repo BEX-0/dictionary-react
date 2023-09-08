@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import SearchResults from "./SearchResults.js";
+import Header from "./Header.js";
 
 export default function Search() {
  let [word, setWord] = useState("");
@@ -23,6 +23,7 @@ export default function Search() {
   setWordData({
    word: response.data.word,
    meanings: response.data.meanings,
+   phonetic: response.data.phonetic,
   });
  }
 
@@ -36,7 +37,7 @@ export default function Search() {
     />
     <input type="submit" value="Search" />
    </form>
-   <SearchResults results={wordData} />
+   <Header results={wordData} />
   </div>
  );
 }
