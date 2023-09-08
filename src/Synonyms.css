@@ -1,0 +1,12 @@
+.Synonyms {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.Synonyms li {
+    display: inline;
+}
+
+.Synonyms li:not(:first-of-type) {
+    margin-left: 10px;
+}

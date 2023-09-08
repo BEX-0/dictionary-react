@@ -4,9 +4,9 @@ import Search from "./Search.js";
 function App() {
  return (
   <div className="App">
-   <div className="main-body">
+   <main>
     <Search />
-   </div>
+    </main>
    <footer>
     <a
      href="https://github.com/BEX-0/dictionary-react"
