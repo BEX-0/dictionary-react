@@ -1,24 +1,36 @@
 :root {
-    --lightest: #EDF2F4;
+ --primary1-light: #edf2f4;
+ --primary1-dark: #9aa8c0;
+ --primary2-light: #ef233c;
+ --primary2-dark: #d90429;
 }
 
 .App {
- color: var(--lightest);
+ color: var(--primary1-light);
  text-align: center;
+ font-family: "Ubuntu", sans-serif;
 }
 
 .App a {
  text-decoration: none;
- color: #8D99AE;
+ color: var(--primary1-dark);
 }
 
 .App footer {
  margin: 30px 0px;
-text-align: center;
+ text-align: center;
 }
 
 .App h1 {
-font-size: 60px;
-text-align: center;
-margin: 0;
+ font-size: 60px;
+ text-align: center;
+ margin: 0;
+ letter-spacing: 2px;
+ text-shadow: -1px 1px rgba(237, 242, 244, 1);
+ color: var(--primary2-light);
+}
+
+.App main {
+ max-width: 800px;
+ margin: auto;
 }

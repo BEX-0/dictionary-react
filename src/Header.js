@@ -6,9 +6,11 @@ import Meaning from "./Meaning.js";
 export default function SearchResults(props) {
  if (props.results) {
   return (
-   <div className="SearchResults">
+   <div className="Header">
     <header>
-    <h2>{props.results.word}<small>{" "}{props.results.phonetic}</small></h2>
+     <h2>
+      {props.results.word} <small>/{props.results.phonetic}/</small>
+     </h2>
     </header>
     {props.results.meanings.map(function (meaning, index) {
      return (

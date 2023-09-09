@@ -1,12 +1,13 @@
 .Synonyms {
-    list-style: none;
-    padding-left: 0px;
+ list-style: none;
+ padding-left: 0px;
+ color: var(--primary1-dark);
 }
 
 .Synonyms li {
-    display: inline;
+ display: inline;
 }
 
 .Synonyms li:not(:first-of-type) {
-    margin-left: 10px;
+ margin-left: 10px;
 }
