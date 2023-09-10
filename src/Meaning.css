@@ -1,7 +1,13 @@
+.Meaning {
+ background-color: #161722;
+ padding: 5px 10px;
+ border-radius: 8px;
+}
+
 .Meaning h3 {
  font-size: 25px;
- margin-bottom: 10px;
- color: var(--primary2-dark);
+ margin: 0px 0px 10px 0px;
+ color: var(--primary-dark);
 }
 
 .Meaning p {
@@ -10,6 +16,5 @@
 }
 
 .Meaning p em {
- padding-top: 30px;
  opacity: 0.5;
 }

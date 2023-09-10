@@ -1,19 +1,17 @@
 :root {
- --primary1-light: #edf2f4;
- --primary1-dark: #9aa8c0;
- --primary2-light: #ef233c;
- --primary2-dark: #d90429;
+ --primary-light: #edf2f4;
+ --primary-dark: #9aa8c0;
 }
 
 .App {
- color: var(--primary1-light);
+ color: var(--primary-light);
  text-align: center;
  font-family: "Ubuntu", sans-serif;
 }
 
 .App a {
  text-decoration: none;
- color: var(--primary1-dark);
+ color: var(--primary-dark);
 }
 
 .App footer {
@@ -27,7 +25,7 @@
  margin: 0;
  letter-spacing: 2px;
  text-shadow: -1px 1px rgba(237, 242, 244, 1);
- color: var(--primary2-light);
+ color: var(--primary-dark);
 }
 
 .App main {

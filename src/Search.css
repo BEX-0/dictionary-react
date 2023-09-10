@@ -1,18 +1,19 @@
 .Search {
-    margin-top: 30px;
+ margin-top: 30px;
 }
 
 .Search input {
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 5px 10px;
-   }
+ border-radius: 5px;
+ font-size: 20px;
+ padding: 5px 10px;
+}
 
 .Search input:first-child {
-    width: 400px;
-    margin-right: 5px;
+ max-width: 350px;
+ width: 100%;
+ margin-right: 5px;
 }
 
 .Search input:last-child:hover {
-    cursor: pointer;
+ cursor: pointer;
 }
