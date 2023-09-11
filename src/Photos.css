@@ -1,0 +1,21 @@
+.Photos {
+ max-width: 750px;
+ margin: auto;
+}
+
+.Photos img {
+ border-radius: 5px;
+ width: 100%;
+ height: auto;
+ transition: 200ms all ease-in-out;
+}
+
+.Photos img:hover {
+ transform: scale(2);
+}
+
+.Photos section {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 10px;
+}

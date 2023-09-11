@@ -17,12 +17,12 @@ export default function Search() {
   setWordQuery(event.target.value);
  }
 
- function search(event) {
+ function handleSubmit(event) {
   event.preventDefault();
   let url = `https://api.shecodes.io/dictionary/v1/define?word=${wordQuery}&key=${wordKey}`;
   axios.get(url).then(showWordData);
 
-  let photosUrl = `https://api.pexels.com/v1/search?query=${wordQuery}&per_page=6`;
+  let photosUrl = `https://api.pexels.com/v1/search?query=${wordQuery}&per_page=6&orientation=landscape`;
   axios
    .get(photosUrl, { headers: { Authorization: photosKey } })
    .then(showPhotos);
@@ -43,7 +43,7 @@ export default function Search() {
 
  return (
   <div className="Search">
-   <form onSubmit={search}>
+   <form onSubmit={handleSubmit}>
     <input
      type="search"
      placeholder="Type a word..."

@@ -13,6 +13,7 @@
 .App a {
  text-decoration: none;
  color: var(--primary-dark);
+ font-weight: 600;
 }
 
 .App footer {

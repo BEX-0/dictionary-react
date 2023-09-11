@@ -9,16 +9,14 @@ function App() {
     <Search />
    </main>
    <footer>
-    <strong>
-     {" "}
-     <a
-      href="https://github.com/BEX-0/dictionary-react"
-      target="_blank"
-      rel="noreferrer"
-     >
-      Open Source Code
-     </a>
-    </strong>{" "}
+    {" "}
+    <a
+     href="https://github.com/BEX-0/dictionary-react"
+     target="_blank"
+     rel="noreferrer"
+    >
+     Open Source Code
+    </a>{" "}
     by Rebecca Leibowitz
    </footer>
   </div>
