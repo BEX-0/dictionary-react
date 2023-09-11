@@ -3,7 +3,7 @@ import React from "react";
 import "./Header.css";
 import Meaning from "./Meaning.js";
 
-export default function SearchResults(props) {
+export default function Header(props) {
  if (props.results) {
   return (
    <div className="Header">
