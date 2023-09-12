@@ -20,3 +20,13 @@
  grid-template-columns: repeat(3, 1fr);
  grid-gap: 10px;
 }
+
+@media (max-width: 576px) {
+ .Photos section {
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .Photos img:hover {
+  transform: none;
+ }
+}

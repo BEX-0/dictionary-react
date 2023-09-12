@@ -17,3 +17,13 @@
  opacity: 0.7;
  margin-left: 10px;
 }
+
+@media (max-width: 576px) {
+ .WordHeader h2 {
+  font-size: 25px;
+ }
+
+ .WordHeader h2 small {
+  font-size: 20px;
+ }
+}

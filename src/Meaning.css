@@ -18,3 +18,13 @@
 .Meaning p em {
  opacity: 0.5;
 }
+
+@media (max-width: 576px) {
+ .Meaning h3 {
+  font-size: 20px;
+ }
+
+ .Meaning p {
+  font-size: 15px;
+ }
+}

@@ -45,7 +45,7 @@ export default function Search() {
    <form onSubmit={handleSubmit}>
     <input
      type="search"
-     placeholder="Search for any word (i.e. flower, cat, varnish...etc)"
+     placeholder="Search for any word..."
      onChange={handleWordChange}
     />
     <input type="submit" value="Search" />
