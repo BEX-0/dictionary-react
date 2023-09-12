@@ -42,8 +42,12 @@ export default function Search() {
 
  return (
   <div className="Search">
+   <label htmlFor="Word Search">
+    What word would you like to learn more about?
+   </label>
    <form onSubmit={handleSubmit}>
     <input
+     id="Word Search"
      type="search"
      placeholder="Search for any word..."
      onChange={handleWordChange}

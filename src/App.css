@@ -1,6 +1,6 @@
 :root {
- --primary-light: #bde0fe;
- --primary-dark: #a2d2ff;
+ --primary-light: #edf2fb;
+ --primary-dark: #ccdbfd;
 }
 
 .App {
@@ -21,11 +21,11 @@
 }
 
 .App h1 {
- font-size: 60px;
+ font-size: 70px;
  text-align: center;
  margin: 0;
  letter-spacing: 2px;
- text-shadow: -1px 1px rgba(237, 242, 244, 1);
+ text-shadow: -1px 1px rgb(182, 182, 182);
  color: var(--primary-dark);
 }
 
@@ -40,6 +40,6 @@
 
 @media (max-width: 576px) {
  .App h1 {
-  font-size: 40px;
+  font-size: 50px;
  }
 }

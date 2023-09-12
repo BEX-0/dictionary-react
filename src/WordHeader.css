@@ -5,6 +5,7 @@
 .WordHeader h2 {
  text-align: center;
  font-size: 40px;
+ color: var(--primary-dark);
 }
 
 .WordHeader h4,

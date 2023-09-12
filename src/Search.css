@@ -1,6 +1,6 @@
 .Search {
  text-align: center;
- margin-top: 15px;
+ margin-top: 25px;
 }
 
 .Search input {
@@ -20,15 +20,19 @@
 }
 
 .Search label {
- margin-bottom: 150px;
+ font-size: 25px;
 }
 
 @media (max-width: 576px) {
  .Search input:first-child {
-  max-width: 200px;
+  max-width: 225px;
  }
 
  .Search input {
   font-size: 15px;
+ }
+
+ .Search label {
+  font-size: 13px;
  }
 }
