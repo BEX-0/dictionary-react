@@ -1,6 +1,6 @@
 :root {
- --primary-light: #edf2f4;
- --primary-dark: #9aa8c0;
+ --primary-light: #bde0fe;
+ --primary-dark: #a2d2ff;
 }
 
 .App {
@@ -35,5 +35,5 @@
  background-color: #0e0f16;
  padding: 20px 20px 40px 20px;
  border-radius: 8px;
- border: 1px solid var(--primary-dark);
+ border: 1px solid var(--primary-light);
 }

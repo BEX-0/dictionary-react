@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import Header from "./Header.js";
+import WordHeader from "./WordHeader.js";
 import Photos from "./Photos.js";
 import "./Search.css";
 
@@ -45,12 +45,12 @@ export default function Search() {
    <form onSubmit={handleSubmit}>
     <input
      type="search"
-     placeholder="i.e. flower, cat, varnish...etc"
+     placeholder="Search for any word (i.e. flower, cat, varnish...etc)"
      onChange={handleWordChange}
     />
     <input type="submit" value="Search" />
    </form>
-   <Header results={wordData} />
+   <WordHeader results={wordData} />
    <Photos results={photoData} />
   </div>
  );

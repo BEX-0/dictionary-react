@@ -1,12 +1,12 @@
 import React from "react";
 
-import "./Header.css";
+import "./WordHeader.css";
 import Meaning from "./Meaning.js";
 
-export default function Header(props) {
+export default function WordHeader(props) {
  if (props.results) {
   return (
-   <div className="Header">
+   <div className="WordHeader">
     <header>
      <h2>
       {props.results.word} <small>/{props.results.phonetic}/</small>
