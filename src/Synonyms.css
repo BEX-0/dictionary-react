@@ -1,6 +1,4 @@
 .Synonyms {
- list-style: none;
- padding-left: 0px;
  color: var(--primary1-dark);
 }
 
@@ -10,4 +8,9 @@
 
 .Synonyms li:not(:first-of-type) {
  margin-left: 10px;
+}
+
+.Synonyms ul {
+ list-style: none;
+ padding-left: 0px;
 }

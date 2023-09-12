@@ -29,7 +29,6 @@ export default function Search() {
  }
 
  function showPhotos(response) {
-  console.log(response.data.photos);
   setPhotoData(response.data.photos);
  }
 
@@ -46,7 +45,7 @@ export default function Search() {
    <form onSubmit={handleSubmit}>
     <input
      type="search"
-     placeholder="Type a word..."
+     placeholder="i.e. flower, cat, varnish...etc"
      onChange={handleWordChange}
     />
     <input type="submit" value="Search" />

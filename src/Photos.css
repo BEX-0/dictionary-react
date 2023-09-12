@@ -1,5 +1,6 @@
 .Photos {
- max-width: 750px;
+ padding-top: 50px;
+ max-width: 790px;
  margin: auto;
 }
 
@@ -11,7 +12,7 @@
 }
 
 .Photos img:hover {
- transform: scale(2);
+ transform: scale(1.5);
 }
 
 .Photos section {

@@ -1,5 +1,6 @@
 .Search {
- margin-top: 30px;
+ text-align: center;
+ margin-top: 15px;
 }
 
 .Search input {
@@ -9,11 +10,15 @@
 }
 
 .Search input:first-child {
- max-width: 500px;
+ max-width: 600px;
  width: 100%;
  margin-right: 5px;
 }
 
 .Search input:last-child:hover {
  cursor: pointer;
+}
+
+.Search label {
+ margin-bottom: 150px;
 }

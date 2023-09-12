@@ -5,7 +5,6 @@
 
 .App {
  color: var(--primary-light);
- text-align: center;
  font-family: "Ubuntu", sans-serif;
  padding: 60px 0px;
 }
